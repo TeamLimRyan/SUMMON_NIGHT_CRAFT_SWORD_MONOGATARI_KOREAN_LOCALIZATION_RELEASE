@@ -1,0 +1,36 @@
+{
+  "release_state": "LOCAL_PREPARED",
+  "version": "v1.0.0",
+  "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE",
+  "external_publication": false,
+  "source": {
+    "game_code": "AB4J",
+    "size": 8388608,
+    "sha256": "3f7ec3d21d8f2fa5bac04afe31f9e5d4e93176ab3e79a9138925c67546663a4f"
+  },
+  "patch": {
+    "path": "Summon_Night_Craft_Sword_Monogatari_KO.xdelta",
+    "size": 927259,
+    "sha256": "cefb43e750dbe2b7ccf3c4b35a50b7a4680646b48568560be6e7a34d92b48cb6",
+    "application_header_disabled": true
+  },
+  "target": {
+    "size": 16777216,
+    "sha256": "e8a51ce92f5ba034fd073638a9a6a5753d0898b40a5ab0d5d44f3199416e7493",
+    "roundtrip_match": true,
+    "deterministic_rebuild": true
+  },
+  "coverage": {
+    "translated_text_rows": 30813,
+    "localized_images": 71,
+    "runtime_image_fixes": 2,
+    "hangul_syllables": 11172,
+    "keyboard_jamo": 40,
+    "active_japanese_residue": 0
+  },
+  "limitations": {
+    "full_scenario_automated_playthrough": false,
+    "real_hardware_tested": false,
+    "owner_release_approval": true
+  }
+}
