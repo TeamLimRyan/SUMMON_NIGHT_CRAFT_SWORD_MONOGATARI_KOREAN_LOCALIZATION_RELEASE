@@ -1,16 +1,16 @@
 {
-  "release_state": "PUBLISHED",
-  "version": "v1.0.0",
+  "release_state": "LOCAL_PREPARED",
+  "version": "v1.0.1",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": true,
+  "external_publication": false,
   "publication": {
-    "published_at": "2026-08-17T16:57:11Z",
-    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.0",
-    "tag_commit": "e83c9a4f9e47cb3f1284332d8a09ce1a051707b9",
-    "asset_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/download/v1.0.0/Summon_Night_Craft_Sword_Monogatari_KO.xdelta",
-    "remote_download_verification": "PASS",
-    "remote_roundtrip_sha256": "e8a51ce92f5ba034fd073638a9a6a5753d0898b40a5ab0d5d44f3199416e7493",
-    "repository_integrity_workflow": "PASS"
+    "published_at": null,
+    "release_url": null,
+    "tag_commit": null,
+    "asset_url": null,
+    "remote_download_verification": "PENDING",
+    "remote_roundtrip_sha256": null,
+    "repository_integrity_workflow": "PENDING"
   },
   "source": {
     "game_code": "AB4J",
@@ -19,20 +19,20 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_KO.xdelta",
-    "size": 927259,
-    "sha256": "cefb43e750dbe2b7ccf3c4b35a50b7a4680646b48568560be6e7a34d92b48cb6",
+    "size": 928075,
+    "sha256": "b249331ed3c4ccecb959bd650131bb9c8f9569fcbeacf60c365b2ab17f218d1b",
     "application_header_disabled": true
   },
   "target": {
     "size": 16777216,
-    "sha256": "e8a51ce92f5ba034fd073638a9a6a5753d0898b40a5ab0d5d44f3199416e7493",
+    "sha256": "6c2b93abdb484a2df31f1be71f88ce76767b4031f3b1112dfdeae97061850a4f",
     "roundtrip_match": true,
     "deterministic_rebuild": true
   },
   "coverage": {
     "translated_text_rows": 30813,
     "localized_images": 71,
-    "runtime_image_fixes": 2,
+    "runtime_image_fixes": 5,
     "hangul_syllables": 11172,
     "keyboard_jamo": 40,
     "active_japanese_residue": 0
