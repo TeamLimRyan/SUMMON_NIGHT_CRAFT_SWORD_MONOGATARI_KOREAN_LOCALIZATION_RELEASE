@@ -1,16 +1,16 @@
 {
-  "release_state": "PUBLISHED",
-  "version": "v1.0.1",
+  "release_state": "LOCAL_PREPARED",
+  "version": "v1.0.3",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": true,
+  "external_publication": false,
   "publication": {
-    "published_at": "2026-08-19T09:57:06Z",
-    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.1",
-    "tag_commit": "62a66493243bea4a56b9c31a84f911ad60fc0a73",
-    "asset_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/download/v1.0.1/Summon_Night_Craft_Sword_Monogatari_KO.xdelta",
-    "remote_download_verification": "PASS",
-    "remote_roundtrip_sha256": "6c2b93abdb484a2df31f1be71f88ce76767b4031f3b1112dfdeae97061850a4f",
-    "repository_integrity_workflow": "PASS"
+    "published_at": null,
+    "release_url": null,
+    "tag_commit": null,
+    "asset_url": null,
+    "remote_download_verification": "PENDING",
+    "remote_roundtrip_sha256": null,
+    "repository_integrity_workflow": "PENDING"
   },
   "source": {
     "game_code": "AB4J",
@@ -19,19 +19,19 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_KO.xdelta",
-    "size": 928075,
-    "sha256": "b249331ed3c4ccecb959bd650131bb9c8f9569fcbeacf60c365b2ab17f218d1b",
+    "size": 928771,
+    "sha256": "f1bc7801b4f3d402d8c0da161c6c24f79dcc5619a828f34001a90e8112938316",
     "application_header_disabled": true
   },
   "target": {
     "size": 16777216,
-    "sha256": "6c2b93abdb484a2df31f1be71f88ce76767b4031f3b1112dfdeae97061850a4f",
+    "sha256": "235c901f5d37f6cc7d8286f2446ad300d8cb81830895e686638a52d659500d10",
     "roundtrip_match": true,
     "deterministic_rebuild": true
   },
   "coverage": {
-    "translated_text_rows": 30813,
-    "localized_images": 71,
+    "translated_text_rows": 30812,
+    "localized_images": 72,
     "runtime_image_fixes": 5,
     "hangul_syllables": 11172,
     "keyboard_jamo": 40,
