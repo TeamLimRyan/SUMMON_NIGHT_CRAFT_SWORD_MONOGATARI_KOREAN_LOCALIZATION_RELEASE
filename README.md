@@ -1,19 +1,20 @@
 # 서몬나이트 크래프트 소드 이야기 한국어 패치
 
-> **v1.0.3 공개 릴리스**
+> **v1.0.4 공개 릴리스**
 
 게임보이 어드밴스 일본판 `Summon Night - Craft Sword Monogatari`용 비공식 한국어 현지화 패치 배포 저장소입니다.
 
 - 게임 코드: `AB4J`
 - 지원 원본 크기: `8,388,608 bytes`
 - 지원 원본 SHA-256: `3f7ec3d21d8f2fa5bac04afe31f9e5d4e93176ab3e79a9138925c67546663a4f`
-- 버전·태그: `v1.0.3`
+- 버전·태그: `v1.0.4`
 - 저장소: `TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE`
 
 ## 포함 범위
 
 - 활성 텍스트 30,812행 한국어화
-- 이미지 텍스트 자산 72개와 런타임 타이틀·메뉴 보정 5건 반영
+- 이미지 텍스트 자산 72개와 런타임 타이틀·메뉴 보정 7건 반영
+- 클리어 세이브에서 해금되는 타이틀 메뉴 `불러오기`·`통신` 그래픽 한국어화
 - 무기 종류별 아이콘·비전 판정 회귀와 도끼·창·드릴 계열 진행 정지 방지 수정
 - 장비·비전·액세서리·아이템·귀중품 이름 표시를 한글 문자열로 연결
 - 하단 메뉴의 `LR:캐릭터 전환`·`LR:입력 전환` 그래픽 한국어화
@@ -24,11 +25,11 @@
 
 ## 다운로드
 
-최신 안정판은 [GitHub Releases의 v1.0.3](https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.3)에서 받으십시오.
+최신 안정판은 [GitHub Releases의 v1.0.4](https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.4)에서 받으십시오.
 
 - 패치: `Summon_Night_Craft_Sword_Monogatari_KO.xdelta`
-- 패치 크기: `928,771 bytes`
-- 패치 SHA-256: `f1bc7801b4f3d402d8c0da161c6c24f79dcc5619a828f34001a90e8112938316`
+- 패치 크기: `930,093 bytes`
+- 패치 SHA-256: `36d87514d284b450640167dd844d98801dcb67ec3dff02ad70d7019cece8a2dd`
 
 이 저장소와 GitHub Release에는 원본 ROM, 완성 ROM, BIOS, 세이브 데이터를 포함하지 않습니다.
 
@@ -53,7 +54,7 @@ xdelta3 -d -s "Summon Night - Craft Sword Monogatari (Japan).gba" `
 ## 결과 무결성
 
 - 결과 크기: `16,777,216 bytes`
-- 결과 SHA-256: `235c901f5d37f6cc7d8286f2446ad300d8cb81830895e686638a52d659500d10`
+- 결과 SHA-256: `6fedb9a082502a1e270a51a6eb900ffde62b837b82c695300d3aaa2490f9631d`
 
 배포 xdelta를 지원 원본에 역적용한 결과가 최종 승인 ROM과 바이트 단위로 일치합니다. 전체 체크섬은 [SHA256SUMS.txt](SHA256SUMS.txt)에 있습니다.
 
