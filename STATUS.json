@@ -1,16 +1,11 @@
 {
-  "release_state": "PUBLISHED",
-  "version": "v1.0.4",
+  "release_state": "LOCAL_PREPARED",
+  "version": "v1.0.5",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": true,
+  "external_publication": false,
   "publication": {
-    "published_at": "2026-08-20T15:56:45Z",
-    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.4",
-    "tag_commit": "6bf154401647d37dc604090ae397aa373c7cd01c",
-    "asset_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/download/v1.0.4/Summon_Night_Craft_Sword_Monogatari_KO.xdelta",
-    "remote_download_verification": "PASS",
-    "remote_roundtrip_sha256": "6fedb9a082502a1e270a51a6eb900ffde62b837b82c695300d3aaa2490f9631d",
-    "repository_integrity_workflow": "PASS"
+    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.5",
+    "remote_download_verification": "PENDING"
   },
   "source": {
     "game_code": "AB4J",
@@ -19,13 +14,13 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_KO.xdelta",
-    "size": 930093,
-    "sha256": "36d87514d284b450640167dd844d98801dcb67ec3dff02ad70d7019cece8a2dd",
+    "size": 948314,
+    "sha256": "0b6f7375e4429e023906f3e9f855d74efaf8cdad331f96edb10577e8ab69209b",
     "application_header_disabled": true
   },
   "target": {
     "size": 16777216,
-    "sha256": "6fedb9a082502a1e270a51a6eb900ffde62b837b82c695300d3aaa2490f9631d",
+    "sha256": "219be47d5fedb1e8efa6a7672b7cc3445fa93875f31f633656373b839d188fa7",
     "roundtrip_match": true,
     "deterministic_rebuild": true
   },
@@ -41,5 +36,13 @@
     "full_scenario_automated_playthrough": false,
     "real_hardware_tested": false,
     "owner_release_approval": true
+  },
+  "runtime_v105": {
+    "reported_line_diagnostic_reproduction": "PASS",
+    "engine_only_correction": "PASS",
+    "chapter_save_replay": false,
+    "fresh_button_only_frames": 5232,
+    "identical_opening_screenshots": 26,
+    "full_playthrough": false
   }
 }
