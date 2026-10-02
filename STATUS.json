@@ -1,11 +1,15 @@
 {
-  "release_state": "LOCAL_PREPARED",
+  "release_state": "PUBLISHED",
   "version": "v1.0.5",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": false,
+  "external_publication": true,
   "publication": {
     "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.5",
-    "remote_download_verification": "PENDING"
+    "published_at": "2026-10-02T02:28:00Z",
+    "tag_commit": "1d3e5677049e4b1622f82030827ee4a05f3f2936",
+    "remote_download_verification": "PASS",
+    "remote_roundtrip_sha256": "219be47d5fedb1e8efa6a7672b7cc3445fa93875f31f633656373b839d188fa7",
+    "repository_integrity_workflow": "PASS"
   },
   "source": {
     "game_code": "AB4J",
